@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+    background-image: url("http://farm5.static.flickr.com/4079/4872646480_3b990e4783.jpg");
+
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 550%;
+    font-family:Helvetica;
+}
+#coupons {
+    border-style: dotted;
+    length: 100px;
+    width: 100px;
+    outline-color: deeppink;
+    Background-color: lightpink;
+    opacity: .4;
+}
+p{
+    text-align: center;
+    color: white;
+}
+a:hover{
+    background-color: aliceblue;
+}
+#couponSize{
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-left: 100%;
+   text-align: center;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-family: Helvetica;
+    align-content: right;
+    align-items: right;
+}
+#text{
+    color: white;
+    opacity: .6;
+    font-size: 50%;
+    margin-left: 40px;
+    float: right;
+}
+form {
+    align-content: center;
+    magin-bottom: 100%;
+    margin-left: 100px;
+}
+#navBar{
+    width: 100px;
+    length: 100px;
+}
+#title {
+    width: 55%;
+    border-radius: 20px;
+    background-color: lightpink;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;/* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 100s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0% {
+        background-color: lightpink;  }
+    5% {
+        background-color: lightblue;  }
+    10% {
+        background-color: lightseagreen;  }
+    15% {
+        background-color: lightgoldenrodyellow;  }
+    20% {
+        background-color: lightsalmon;  }
+    25% {
+        background-color: coral;  }
+    30% {
+        background-color: darkgrey;  }
+    35% {
+        background-color: mediumpurple;  }
+    40% {
+        background-color: rebeccapurple;  }
+    45% {
+        background-color: aliceblue;  }
+    50% {
+        background-color: firebrick;  }
+    55% {
+        background-color: mediumaquamarine;  }
+    60% {
+        background-color: darkseagreen;  }
+    65% {
+        background-color: rebeccapurple;  }
+    70% {
+        background-color: gold;  }
+    75% {
+        background-color: pink;  }
+    80% {
+        background-color: thistle;  }
+    85% {
+        background-color: maroon;  }
+    90% {
+        background-color: yellow;  }
+    95% {
+        background-color: paleturquoise;  }
+    100% {
+        background-color: deeppink;  }
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    0% {background-color: lightpink;  }
+    5% {background-color: lightblue;  }
+    10% {background-color: lightseagreen;  }
+    15% {background-color: lightgoldenrodyellow;  }
+    20% {background-color: lightsalmon;  }
+    25% {background-color: coral;  }
+    30% {background-color: darkgrey;  }
+    35% {background-color: mediumpurple;  }
+    40% {background-color: rebeccapurple;  }
+    45% {background-color: aliceblue;  }
+    50% {background-color: firebrick;  }
+    55% {
+        background-color: mediumaquamarine;  }
+    60% {
+        background-color: darkseagreen;  }
+    65% {
+        background-color: rebeccapurple;  }
+    70% {
+        background-color: gold;  }
+    75% {
+        background-color: pink;  }
+    80% {
+        background-color: thistle;  }
+    85% {
+        background-color: maroon;  }
+    90% {
+        background-color: yellow;  }
+    95% {
+        background-color: paleturquoise;  }
+    100% {
+        background-color: deeppink;
+    }
+}
+.button1 {
+    background-color: black;
+    color: white;
+border-radius: none;
+    border-color: white;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-family: Helvetica;
+    border-radius: 20px;
+    font-size: large;
+}
+
+#bob{
+    background-color: darksalmon;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+    border-style: none;
+}
+input[type=text] {
+    width: 250px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+input[type=email] {
+    width: 250px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+input[type=url] {
+    width: 250px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+input[type=button] {
+    width: 250px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+input[placeholder=message] {
+    width: 250px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+#green{
+    border-color: black;
+    border-style: none;
+}
